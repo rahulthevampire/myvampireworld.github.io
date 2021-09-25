@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color:white;
+    color: lawngreen;
+    border-radius: 20px;
+    border: solid blue;
+
+}
+.navbar ul {
+overflow: auto;
+}
+
+.navbar li {
+float: left;
+list-style-type: none;
+margin: 13px 20px;
+width: 133px;
+height: 33px;
+}
+
+.navbar li a {
+padding: 3px 3px;
+text-decoration: none;
+color:black;
+}
+.navbar li a:hover{
+color:red;
+}
+
+.search {
+float: right;
+color: white;
+padding: 12px 75px;
+}
+
+.navbar input {
+border: 2px solid black;
+border-radius: 14px;
+padding:3px 17px;
+width: 129px;
+}
+ .h1{position: relative;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+
+} 
+.h2{position: relative;
+    top: -58px;
+    width: 106px;
+    height: 55px;
+    right: -55vw;
+}
+
+.b1{
+    font-size: 22px;
+    color: black;
+    border: blue;
+    border-radius: 3px;
+}
+.b2{
+     font-size: 22px;
+    color: black;
+    border: blue;
+    border-radius: 3px;
+}
+.b3{
+     font-size: 22px;
+    color: black;
+    border: blue;
+    border-radius: 3px;
+}
+.b4{   font-size: 22px;
+  
+    color: black;
+    border: blue;
+    border-radius: 3px;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo7Oor6hj0LTTRJfFtxzluPUBnHqVhGUoVTw&usqp=CAU");
+    position: relative;
+    top: auto;
+    background-size: cover;
+    backface-visibility: fixed;
+    background-repeat: no-repeat;
+
+}
